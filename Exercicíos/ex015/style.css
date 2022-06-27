@@ -1,0 +1,18 @@
+     @charset "UTF-8 ";  
+     /*Regra @Charset cajo haja algum erro com a acentuação*/
+
+        body{
+        background-color: pink;
+        
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            background-color: rgb(219, 52, 108);
+        }
+        h2{
+            color:rgb(156, 0, 91);
+        }
+        p{ 
+            text-align: justify;
+        }
+    

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pseu elementos</title>
+    <link rel="shortcut icon" href="favicon/Trayse101-Basic-Filetypes-1-Css.ico" type="favicon">
+    <style>
+        a{
+          color: black; 
+          text-decoration: none; 
+          font-weight: bold;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        a:hover{
+            color: rgb(31, 30, 126);
+            text-decoration: underline;
+        }
+        a:active{
+            color: forestgreen;
+        }
+        .especial::after {
+            content:'⇤' ;
+        }
+        .especial::before {
+            content:'⇥' ;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1> Personalizando Links</h1>
+    <ul>
+        <li> <a href="https://www.instagram.com/ariadnedebora/" class="especial" target="blank">Instagram</a></li>
+        <li><a href="https://www.facebook.com/ariadnedebora/">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/deborapalhano/">Linkedin</a></li>
+    </ul>
+    
+</body>
+</html>
