@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+
+        table{
+            height: 400px;
+            width: 400px;
+            border-collapse: collapse;
+            
+        }
+        thead, tfoot {
+            background-color: rgb(95, 95, 95);
+            color: white;
+        }
+
+        caption {
+            background-color: rgb(138, 138, 138);
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.num {
+            text-align: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption> Tabela da população da Europa</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">País</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rússia</td>
+                <td class="num">144.031.800</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Alemanha</td>
+                <td class="num">81.276.000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Turquia</td>
+                <td class="num">78.214.000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>França</td>
+                <td class="num">66.121.000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Reino Unido</td>
+                <td class="num">65.081.276</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Itália</td>
+                <td class="num">60.963.000	</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Espanha</td>
+                <td class="num">46.335.000</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ucrânia</td>
+                <td class="num">42.850.000</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Polónia</td>
+                <td class="num">38.494.000</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Roménia</td>
+                <td class="num">19.822.000</td>
+            </tr>
+        
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>245.254.025</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
