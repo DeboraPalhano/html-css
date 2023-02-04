@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relembrando</title>
+</head>
+<body>
+    <h1>Ambiente do aluno</h1>
+    <form action="form.php" method="get" autocomplete="on">
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" name="inome" id="iname" placeholder="Isira seu nome" autocomplete="name">
+        </p>
+        <p>
+            <label for="media">Média:</label>
+            <input type="number" name="num" id="inum" required step="0.1" placeholder="Exemplo: 6,5" maxlength="5">
+        </p>
+        <p>
+            <label for="ano">Periodo letivo:</label>
+            <input type="month" name="mes" id="imes" value="2023-01">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        
+    </form>
+</body>
+</html>
