@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Selecione seu estado</h1>
+    <form action="form.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="estado" id="iest">
+
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Região Norte" >
+                    <option value="MG">Acre</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="MA">Manaus</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="BA">Bahia</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="PE">Pernambuco</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>            
+            </select>
+
+        </p>
+        <p>
+            <label for="iprof">Profissões: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ENF">Enfermeiro</option>
+                <option value="ENG">Engenheiro</option>
+                <option value="FOT">Fotografo</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="CMS">Comissário de bordo</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+
+
+
+    </form>
+</body>
+</html>
